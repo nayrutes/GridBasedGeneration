@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 
@@ -10,13 +11,18 @@ namespace GridBasedGeneration
         public float MidToSide;
         public int Iterations;
         public Vector3 Origin;
-        public List<Cell> PrefabCells = new List<Cell>();
+        public List<Conditions> PrefabConditions = new List<Conditions>();
         
         private List<Cell> spawnedCells = new List<Cell>();
         private List<Cell> spawnedCellsLast = new List<Cell>();
-        private Dictionary<Vector3, Prespawn> prespawns = new Dictionary<Vector3, Prespawn>();
+        private Dictionary<Vector3, Conditions> prespawns = new Dictionary<Vector3, Conditions>();
         private bool isIterating = false;
 
+        //public Action<Conditions> ChooseFittingUnity;
+        public delegate void ActionRef1<T1, T2>(ref T1 arg1, T2 arg2);
+
+        public ActionRef1<List<Conditions>, Vector3> ChooseFittingUnity;
+        
         //-----Debug-----
         public bool showMarker;
 
@@ -33,21 +39,34 @@ namespace GridBasedGeneration
             yield return null;
         }
 
+        //prespawn indicate what constraints the position has
+        //add fitting cell on top
+        //modify coorresponding prespawn
         public void Generate()
         {
             isIterating = true;
             int currentIteration = 0;
-
-            spawnedCellsLast.Add(new Cell(new Vector3(0, 0, 0), 1, 1, 1, 1));
-
+            Vector3 startvector = new Vector3(0,0,0);
+            spawnedCellsLast.Add(new Cell(startvector, 2, 2, 2, 2));
+            prespawns.Add(startvector, new Conditions(2,2,2,2));
+            
             while (isIterating)
             {
                 List<Cell> spawnedCellsNow = new List<Cell>();
-
+                
+                //get new positions
                 var cs = CheckSides(spawnedCells);
+                //spawn markers
                 var sp = SpawnPrespawn(cs);
-                var ff = FindFitting();
-                var cf = ChooseFitting(ff);
+
+                foreach (KeyValuePair<Vector3,Conditions> tile in sp)
+                {
+                    //find fitting cell (aka prefab in unity)
+                    var ff = FindFitting(tile);
+                    //select a fitting cell and modify prespawn
+                    var cf = ChooseFitting(ff, tile.Key);
+                }
+                
 
                 spawnedCellsLast.Clear();
                 spawnedCellsLast.AddRange(spawnedCellsNow);
@@ -65,7 +84,8 @@ namespace GridBasedGeneration
         private HashSet<Vector3> CheckSides(List<Cell> spawnedCells)
         {
             HashSet<Vector3> result = new HashSet<Vector3>();
-
+            
+            //Hashset prevents double position
             foreach (var cell in spawnedCells)
             {
                 result.Add(cell.Position + Vector3.UnitX);
@@ -77,13 +97,19 @@ namespace GridBasedGeneration
             return result;
         }
 
-        private Dictionary<Vector3,Prespawn> SpawnPrespawn(HashSet<Vector3> checkedSides)
+        private Dictionary<Vector3,Conditions> SpawnPrespawn(HashSet<Vector3> checkedSides)
         {
-            Dictionary<Vector3, Prespawn> result = new Dictionary<Vector3, Prespawn>();
+            Dictionary<Vector3, Conditions> result = new Dictionary<Vector3, Conditions>();
 
             foreach (var vec in checkedSides)
             {
-                
+                //Get condition from surrounding tiles
+                //set condiotion for tile accordingly (axis reverserd)
+                var x = (prespawns[vec + Vector3.UnitX]?.ConditionInX).GetValueOrDefault();
+                var mx = (prespawns[vec - Vector3.UnitX]?.ConditionInMinusX).GetValueOrDefault();
+                var z = (prespawns[vec + Vector3.UnitZ]?.ConditionInZ).GetValueOrDefault();
+                var mz = (prespawns[vec - Vector3.UnitZ]?.ConditionInMinusZ).GetValueOrDefault();
+                result.Add(vec, new Conditions(mx,x,mz,z));
             }
 
             return result;
@@ -91,15 +117,27 @@ namespace GridBasedGeneration
 
         
 
-        private List<Cell> FindFitting()
+        private List<Conditions> FindFitting(KeyValuePair<Vector3,Conditions> tile)
         {
-            List<Cell> result = new List<Cell>();
+            List<Conditions> result = new List<Conditions>();
 
+            foreach (var PrefabCondition in PrefabConditions)
+            {
+                if (tile.Value >= PrefabCondition)
+                {
+                    result.Add(PrefabCondition);
+                }
+            }
+            
             return result;
         }
 
-        private Cell ChooseFitting(List<Cell> cells)
+        private Cell ChooseFitting(List<Conditions> cond, Vector3 pos)
         {
+            
+            ChooseFittingUnity.Invoke(ref cond, pos);
+            //modify prespawn at pos
+            
             return new Cell();
         }
 

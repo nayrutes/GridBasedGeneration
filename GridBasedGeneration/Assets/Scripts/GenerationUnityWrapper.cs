@@ -14,6 +14,14 @@ public class GenerationUnityWrapper : MonoBehaviour
     void Start()
     {
         generationManager = new GenerationManager();
+        generationManager.ChooseFittingUnity = ChooseFittingUnity;
+    }
+
+    private void ChooseFittingUnity(ref List<Conditions> arg1, System.Numerics.Vector3 arg2)
+    {
+        //select one condition
+        //manage unit prefab
+        //
     }
 
     // Update is called once per frame
