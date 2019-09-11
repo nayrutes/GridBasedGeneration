@@ -11,6 +11,7 @@
           <e p="Conditions.cs" t="Include" />
           <e p="GenerationManager.cs" t="Include" />
           <e p="GenerationUnityWrapper.cs" t="Include" />
+          <e p="PrefabConditions.cs" t="Include" />
         </e>
       </e>
       <e p="GridBasedGeneration.sln" t="IncludeFlat" />

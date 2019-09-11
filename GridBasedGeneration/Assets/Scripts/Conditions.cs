@@ -5,6 +5,7 @@ using TMPro;
 
 namespace GridBasedGeneration
 {
+    [System.Serializable]
     public class Conditions
     {
         //condition == 0 => no information (can set self)

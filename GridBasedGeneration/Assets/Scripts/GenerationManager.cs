@@ -63,7 +63,7 @@ namespace GridBasedGeneration
                 {
                     //find fitting cell (aka prefab in unity)
                     var ff = FindFitting(tile);
-                    //select a fitting cell and modify prespawn
+                    //select a fitting cell and modify tile
                     var cf = ChooseFitting(ff, tile.Key);
                 }
                 

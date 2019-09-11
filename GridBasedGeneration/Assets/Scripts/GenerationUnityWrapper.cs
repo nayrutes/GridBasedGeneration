@@ -5,14 +5,18 @@ using GridBasedGeneration;
 
 public class GenerationUnityWrapper : MonoBehaviour
 {
-    public List<GameObject> Prefabs;
-    public Vector3 origin;
+    [SerializeField] private List<GameObject> prefabs;
+    [SerializeField] private Vector3 origin;
+    private List<Conditions> prefabConditions;
 
     private GenerationManager generationManager;
 
     // Start is called before the first frame update
     void Start()
     {
+        //prepare
+        
+        //startgeneration
         generationManager = new GenerationManager();
         generationManager.ChooseFittingUnity = ChooseFittingUnity;
     }

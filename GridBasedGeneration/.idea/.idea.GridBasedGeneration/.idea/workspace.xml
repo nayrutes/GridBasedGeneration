@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02195a38-2a2e-41f4-a4f2-51215bbf4367" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GridBasedGeneration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridBasedGeneration/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Conditions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Conditions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerationManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerationUnityWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerationUnityWrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prespawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Conditions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Prespawn.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Conditions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,32 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerationManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="138" column="36" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <marker date="1568054425572" expanded="true" signature="6:96" ph="..." />
-                <marker date="1568054425572" expanded="true" signature="127:4789" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="164:4786" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="967:988" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="1080:1131" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="1141:1269" ph="/* prespawn indicate what constraints the position has ... */" />
-                <marker date="1568054425572" expanded="true" signature="1300:2575" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="1613:2565" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="1941:2209" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="2438:2515" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="2646:3127" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="2825:3089" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="3220:4001" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="3369:3963" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="3400:3509" ph="/* Get condition from surrounding tiles ... */" />
-                <marker date="1568054425572" expanded="true" signature="4096:4445" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="4231:4395" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="4296:4381" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="4517:4685" ph="{...}" />
-                <marker date="1568054425572" expanded="true" signature="4759:4780" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="6:96" ph="..." />
+                <marker date="1568111233971" expanded="true" signature="127:4785" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="164:4782" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="967:988" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="1080:1131" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="1141:1269" ph="/* prespawn indicate what constraints the position has ... */" />
+                <marker date="1568111233971" expanded="true" signature="1300:2571" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="1613:2561" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="1941:2205" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="2434:2511" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="2642:3123" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="2821:3085" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="3216:3997" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="3365:3959" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="3396:3505" ph="/* Get condition from surrounding tiles ... */" />
+                <marker date="1568111233971" expanded="true" signature="4092:4441" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="4227:4391" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="4292:4377" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="4513:4681" ph="{...}" />
+                <marker date="1568111233971" expanded="true" signature="4755:4776" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -53,18 +50,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cell.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="94">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
-                <marker date="1568050696456" expanded="true" signature="6:82" ph="..." />
-                <marker date="1568050696456" expanded="true" signature="113:1107" ph="{...}" />
-                <marker date="1568050696456" expanded="true" signature="163:1105" ph="{...}" />
-                <marker date="1568050696456" expanded="true" signature="291:389" ph="{...}" />
-                <marker date="1568050696456" expanded="true" signature="422:520" ph="{...}" />
-                <marker date="1568050696456" expanded="true" signature="558:666" ph="{...}" />
-                <marker date="1568050696456" expanded="true" signature="704:812" ph="{...}" />
-                <marker date="1568050696456" expanded="true" signature="835:856" ph="{...}" />
-                <marker date="1568050696456" expanded="true" signature="919:1099" ph="{...}" />
+                <marker date="1568111331060" expanded="true" signature="6:82" ph="..." />
+                <marker date="1568111331060" expanded="true" signature="113:1211" ph="{...}" />
+                <marker date="1568111331060" expanded="true" signature="176:1209" ph="{...}" />
+                <marker date="1568111331060" expanded="true" signature="234:890" ph="/* private Conditions p = new Conditions(0,0,0,0); ... */" />
+                <marker date="1568111331060" expanded="true" signature="913:934" ph="{...}" />
+                <marker date="1568111331060" expanded="true" signature="1015:1203" ph="{...}" />
+                <marker date="1568111331060" expanded="true" signature="1054:1193" ph="/* ConditionInX = x; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrefabConditions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1568111480425" expanded="false" signature="6:105" ph="..." />
+                <marker date="1568111480425" expanded="true" signature="152:207" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,15 +81,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerationUnityWrapper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="214">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
-                <marker date="1568054425583" expanded="false" signature="6:105" ph="..." />
-                <marker date="1568054425583" expanded="true" signature="158:735" ph="{...}" />
-                <marker date="1568054425583" expanded="true" signature="345:477" ph="{...}" />
-                <marker date="1568054425583" expanded="true" signature="571:654" ph="{...}" />
-                <marker date="1568054425583" expanded="true" signature="586:648" ph="/* select one condition ... */" />
-                <marker date="1568054425583" expanded="true" signature="712:733" ph="{...}" />
+                <marker date="1568111234097" expanded="false" signature="6:105" ph="..." />
+                <marker date="1568111234097" expanded="true" signature="158:871" ph="{...}" />
+                <marker date="1568111234097" expanded="true" signature="428:613" ph="{...}" />
+                <marker date="1568111234097" expanded="true" signature="443:487" ph="/* prepare ... */" />
+                <marker date="1568111234097" expanded="true" signature="707:790" ph="{...}" />
+                <marker date="1568111234097" expanded="true" signature="722:784" ph="/* select one condition ... */" />
+                <marker date="1568111234097" expanded="true" signature="848:869" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -90,22 +99,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Conditions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="-90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1568052970474" expanded="false" signature="6:95" ph="..." />
-                <marker date="1568052970474" expanded="true" signature="126:1811" ph="{...}" />
-                <marker date="1568052970474" expanded="true" signature="156:1809" ph="{...}" />
-                <marker date="1568052970474" expanded="true" signature="171:379" ph="/* condition == 0 =&gt; no information (can set self) ... */" />
-                <marker date="1568052970474" expanded="true" signature="603:624" ph="{...}" />
-                <marker date="1568052970474" expanded="true" signature="680:832" ph="{...}" />
-                <marker date="1568052970474" expanded="true" signature="900:947" ph="{...}" />
-                <marker date="1568052970474" expanded="true" signature="957:1094" ph="/* does a have more conditions as b? Aka does b fit into a? ... */" />
-                <marker date="1568052970474" expanded="true" signature="1161:1803" ph="{...}" />
-                <marker date="1568052970474" expanded="true" signature="1276:1336" ph="{...}" />
-                <marker date="1568052970474" expanded="true" signature="1409:1469" ph="{...}" />
-                <marker date="1568052970474" expanded="true" signature="1557:1617" ph="{...}" />
-                <marker date="1568052970474" expanded="true" signature="1705:1765" ph="{...}" />
+                <marker date="1568111234056" expanded="false" signature="6:95" ph="..." />
+                <marker date="1568111234056" expanded="true" signature="126:1837" ph="{...}" />
+                <marker date="1568111234056" expanded="true" signature="182:1835" ph="{...}" />
+                <marker date="1568111234056" expanded="true" signature="197:405" ph="/* condition == 0 =&gt; no information (can set self) ... */" />
+                <marker date="1568111234056" expanded="true" signature="629:650" ph="{...}" />
+                <marker date="1568111234056" expanded="true" signature="706:858" ph="{...}" />
+                <marker date="1568111234056" expanded="true" signature="926:973" ph="{...}" />
+                <marker date="1568111234056" expanded="true" signature="983:1120" ph="/* does a have more conditions as b? Aka does b fit into a? ... */" />
+                <marker date="1568111234056" expanded="true" signature="1187:1829" ph="{...}" />
+                <marker date="1568111234056" expanded="true" signature="1302:1362" ph="{...}" />
+                <marker date="1568111234056" expanded="true" signature="1435:1495" ph="{...}" />
+                <marker date="1568111234056" expanded="true" signature="1583:1643" ph="{...}" />
+                <marker date="1568111234056" expanded="true" signature="1731:1791" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -121,15 +130,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenerationUnityWrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenerationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PrefabConditions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Prespawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Conditions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GenerationUnityWrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GenerationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenerationUnityWrapper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Conditions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PrefabConditions.cs" />
       </list>
     </option>
   </component>
@@ -204,12 +215,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568028229335</updated>
-      <workItem from="1568028238703" duration="9098000" />
+      <workItem from="1568028238703" duration="10634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9098000" />
+    <option name="totallyTimeSpent" value="10634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,86 +273,96 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cell.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <marker date="1568050696456" expanded="true" signature="6:82" ph="..." />
-            <marker date="1568050696456" expanded="true" signature="113:1107" ph="{...}" />
-            <marker date="1568050696456" expanded="true" signature="163:1105" ph="{...}" />
-            <marker date="1568050696456" expanded="true" signature="291:389" ph="{...}" />
-            <marker date="1568050696456" expanded="true" signature="422:520" ph="{...}" />
-            <marker date="1568050696456" expanded="true" signature="558:666" ph="{...}" />
-            <marker date="1568050696456" expanded="true" signature="704:812" ph="{...}" />
-            <marker date="1568050696456" expanded="true" signature="835:856" ph="{...}" />
-            <marker date="1568050696456" expanded="true" signature="919:1099" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Conditions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="-90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
-            <marker date="1568052970474" expanded="false" signature="6:95" ph="..." />
-            <marker date="1568052970474" expanded="true" signature="126:1811" ph="{...}" />
-            <marker date="1568052970474" expanded="true" signature="156:1809" ph="{...}" />
-            <marker date="1568052970474" expanded="true" signature="171:379" ph="/* condition == 0 =&gt; no information (can set self) ... */" />
-            <marker date="1568052970474" expanded="true" signature="603:624" ph="{...}" />
-            <marker date="1568052970474" expanded="true" signature="680:832" ph="{...}" />
-            <marker date="1568052970474" expanded="true" signature="900:947" ph="{...}" />
-            <marker date="1568052970474" expanded="true" signature="957:1094" ph="/* does a have more conditions as b? Aka does b fit into a? ... */" />
-            <marker date="1568052970474" expanded="true" signature="1161:1803" ph="{...}" />
-            <marker date="1568052970474" expanded="true" signature="1276:1336" ph="{...}" />
-            <marker date="1568052970474" expanded="true" signature="1409:1469" ph="{...}" />
-            <marker date="1568052970474" expanded="true" signature="1557:1617" ph="{...}" />
-            <marker date="1568052970474" expanded="true" signature="1705:1765" ph="{...}" />
+            <marker date="1568111234056" expanded="false" signature="6:95" ph="..." />
+            <marker date="1568111234056" expanded="true" signature="126:1837" ph="{...}" />
+            <marker date="1568111234056" expanded="true" signature="182:1835" ph="{...}" />
+            <marker date="1568111234056" expanded="true" signature="197:405" ph="/* condition == 0 =&gt; no information (can set self) ... */" />
+            <marker date="1568111234056" expanded="true" signature="629:650" ph="{...}" />
+            <marker date="1568111234056" expanded="true" signature="706:858" ph="{...}" />
+            <marker date="1568111234056" expanded="true" signature="926:973" ph="{...}" />
+            <marker date="1568111234056" expanded="true" signature="983:1120" ph="/* does a have more conditions as b? Aka does b fit into a? ... */" />
+            <marker date="1568111234056" expanded="true" signature="1187:1829" ph="{...}" />
+            <marker date="1568111234056" expanded="true" signature="1302:1362" ph="{...}" />
+            <marker date="1568111234056" expanded="true" signature="1435:1495" ph="{...}" />
+            <marker date="1568111234056" expanded="true" signature="1583:1643" ph="{...}" />
+            <marker date="1568111234056" expanded="true" signature="1731:1791" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerationUnityWrapper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="214">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
-            <marker date="1568054425583" expanded="false" signature="6:105" ph="..." />
-            <marker date="1568054425583" expanded="true" signature="158:735" ph="{...}" />
-            <marker date="1568054425583" expanded="true" signature="345:477" ph="{...}" />
-            <marker date="1568054425583" expanded="true" signature="571:654" ph="{...}" />
-            <marker date="1568054425583" expanded="true" signature="586:648" ph="/* select one condition ... */" />
-            <marker date="1568054425583" expanded="true" signature="712:733" ph="{...}" />
+            <marker date="1568111234097" expanded="false" signature="6:105" ph="..." />
+            <marker date="1568111234097" expanded="true" signature="158:871" ph="{...}" />
+            <marker date="1568111234097" expanded="true" signature="428:613" ph="{...}" />
+            <marker date="1568111234097" expanded="true" signature="443:487" ph="/* prepare ... */" />
+            <marker date="1568111234097" expanded="true" signature="707:790" ph="{...}" />
+            <marker date="1568111234097" expanded="true" signature="722:784" ph="/* select one condition ... */" />
+            <marker date="1568111234097" expanded="true" signature="848:869" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerationManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="138" column="36" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <marker date="1568054425572" expanded="true" signature="6:96" ph="..." />
-            <marker date="1568054425572" expanded="true" signature="127:4789" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="164:4786" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="967:988" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="1080:1131" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="1141:1269" ph="/* prespawn indicate what constraints the position has ... */" />
-            <marker date="1568054425572" expanded="true" signature="1300:2575" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="1613:2565" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="1941:2209" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="2438:2515" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="2646:3127" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="2825:3089" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="3220:4001" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="3369:3963" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="3400:3509" ph="/* Get condition from surrounding tiles ... */" />
-            <marker date="1568054425572" expanded="true" signature="4096:4445" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="4231:4395" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="4296:4381" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="4517:4685" ph="{...}" />
-            <marker date="1568054425572" expanded="true" signature="4759:4780" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="6:96" ph="..." />
+            <marker date="1568111233971" expanded="true" signature="127:4785" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="164:4782" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="967:988" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="1080:1131" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="1141:1269" ph="/* prespawn indicate what constraints the position has ... */" />
+            <marker date="1568111233971" expanded="true" signature="1300:2571" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="1613:2561" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="1941:2205" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="2434:2511" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="2642:3123" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="2821:3085" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="3216:3997" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="3365:3959" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="3396:3505" ph="/* Get condition from surrounding tiles ... */" />
+            <marker date="1568111233971" expanded="true" signature="4092:4441" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="4227:4391" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="4292:4377" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="4513:4681" ph="{...}" />
+            <marker date="1568111233971" expanded="true" signature="4755:4776" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1568111331060" expanded="true" signature="6:82" ph="..." />
+            <marker date="1568111331060" expanded="true" signature="113:1211" ph="{...}" />
+            <marker date="1568111331060" expanded="true" signature="176:1209" ph="{...}" />
+            <marker date="1568111331060" expanded="true" signature="234:890" ph="/* private Conditions p = new Conditions(0,0,0,0); ... */" />
+            <marker date="1568111331060" expanded="true" signature="913:934" ph="{...}" />
+            <marker date="1568111331060" expanded="true" signature="1015:1203" ph="{...}" />
+            <marker date="1568111331060" expanded="true" signature="1054:1193" ph="/* ConditionInX = x; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrefabConditions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1568111480425" expanded="false" signature="6:105" ph="..." />
+            <marker date="1568111480425" expanded="true" signature="152:207" ph="{...}" />
           </folding>
         </state>
       </provider>
