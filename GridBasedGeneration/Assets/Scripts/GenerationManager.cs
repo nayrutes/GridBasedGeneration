@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
+using UnityEngine.UI;
 
 namespace GridBasedGeneration
 {
@@ -10,8 +11,8 @@ namespace GridBasedGeneration
         public bool isFinished = false;
         public float MidToSide;
         public int Iterations;
-        public Vector3 Origin;
-        public List<Conditions> PrefabConditions = new List<Conditions>();
+        private Vector3 Origin;
+        private List<Conditions> PrefabConditions = new List<Conditions>();
         
         private List<Cell> spawnedCells = new List<Cell>();
         private List<Cell> spawnedCellsLast = new List<Cell>();
@@ -27,8 +28,10 @@ namespace GridBasedGeneration
         public bool showMarker;
 
         
-        public GenerationManager()
+        public GenerationManager(Vector3 origin, List<Conditions> prefabConditions)
         {
+            this.Origin = origin;
+            this.PrefabConditions = prefabConditions;
 
         }
 

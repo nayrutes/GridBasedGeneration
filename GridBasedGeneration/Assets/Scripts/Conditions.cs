@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Numerics;
 using TMPro;
+using UnityEngine;
 
 namespace GridBasedGeneration
 {
@@ -12,11 +13,32 @@ namespace GridBasedGeneration
         //condition == 1 => no connection (no door)
         //condition == 2 => connection (one door)
         //condition == 3 => other connection (two doors)
+        [SerializeField] private int _conditionInZ;
+        [SerializeField] private int _conditionInX;
+        [SerializeField] private int _conditionInMinusZ;
+        [SerializeField] private int _conditionInMinusX;
 
-        public int ConditionInX { get; set; }
-        public int ConditionInZ { get; set; }
-        public int ConditionInMinusX { get; set; }
-        public int ConditionInMinusZ { get; set; }
+        public int ConditionInZ
+        {
+            get { return _conditionInZ;}
+            set { _conditionInZ = value; }
+        }
+        public int ConditionInX
+        {
+            get { return _conditionInX;}
+            set { _conditionInX = value; }
+        }
+        public int ConditionInMinusZ
+        {
+            get { return _conditionInMinusZ;}
+            set { _conditionInMinusZ = value; }
+        }
+        public int ConditionInMinusX
+        {
+            get { return _conditionInMinusX;}
+            set { _conditionInMinusX = value; }
+        }
+
 
         public Conditions()
         {

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using GridBasedGeneration;
+using NUnit.Framework.Constraints;
 
 public class GenerationUnityWrapper : MonoBehaviour
 {
@@ -17,8 +18,10 @@ public class GenerationUnityWrapper : MonoBehaviour
         //prepare
         
         //startgeneration
-        generationManager = new GenerationManager();
+        generationManager = new GenerationManager(UnityToNum(origin),prefabConditions);
         generationManager.ChooseFittingUnity = ChooseFittingUnity;
+        
+        generationManager.Generate();
     }
 
     private void ChooseFittingUnity(ref List<Conditions> arg1, System.Numerics.Vector3 arg2)
@@ -28,6 +31,11 @@ public class GenerationUnityWrapper : MonoBehaviour
         //
     }
 
+    public static System.Numerics.Vector3 UnityToNum(Vector3 vec)
+    {
+        return new System.Numerics.Vector3(vec.x,vec.y,vec.z);
+    }
+    
     // Update is called once per frame
     void Update()
     {
